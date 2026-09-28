@@ -1,0 +1,55 @@
+{
+  "rows": 25000,
+  "cols": [
+    "sale_id",
+    "sold_at",
+    "store_id",
+    "product_id",
+    "quantity",
+    "unit_price",
+    "gross_sales",
+    "discount_amount",
+    "net_sales",
+    "promo_flag"
+  ],
+  "dtypes": {
+    "sale_id": "object",
+    "sold_at": "object",
+    "store_id": "object",
+    "product_id": "object",
+    "quantity": "int64",
+    "unit_price": "int64",
+    "gross_sales": "int64",
+    "discount_amount": "int64",
+    "net_sales": "int64",
+    "promo_flag": "int64"
+  },
+  "null_count": {
+    "sale_id": 0,
+    "sold_at": 0,
+    "store_id": 0,
+    "product_id": 0,
+    "quantity": 0,
+    "unit_price": 0,
+    "gross_sales": 0,
+    "discount_amount": 0,
+    "net_sales": 0,
+    "promo_flag": 0
+  },
+  "dup_rows": 0,
+  "sale_id_unique": 25000,
+  "sold_at_range": [
+    "2024-12-31 15:29:02",
+    "2025-12-31 14:44:57"
+  ],
+  "net_sales_desc": {
+    "count": 25000.0,
+    "mean": 259645.02908,
+    "std": 280526.50782354665,
+    "min": 1382.0,
+    "25%": 87135.75,
+    "50%": 171534.0,
+    "75%": 337960.75,
+    "max": 1996650.0
+  }
+}
